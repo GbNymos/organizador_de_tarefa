@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+
+    <style>
+        button{
+            padding: 5px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .conteiner {
+            width: 500px; 
+            height: 400px; 
+            margin: auto;
+            padding: 10px;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        li{
+            font-size: 1.3em;
+            padding-bottom: 10px;
+        }
+        
+    </style>
+
+
+</head>
+<body>
+<div class="conteiner">
+    <h1>Organizador de tarefas</h1>
+
+    <div class="adicionar">
+        <h2>Adicione tarefas</h2>
+        <input type="text" id="add">
+        <button id="btn-adiciona" onclick="adicionarTarefa()">adicionar</button>
+    </div>
+
+    <h2>Suas tarefas:</h2>
+    <ul id="listas">
+    </ul>
+
+</div>
+</body>
+<script src="index.js"></script>
+</html>
+
+
+
+
+
+
+   
