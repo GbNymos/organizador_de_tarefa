@@ -8,7 +8,7 @@ function adicionarTarefa() {
     if (adiciona.trim() !== '') {
 
         // Cria novo elemento 
-        var novaTarefaElemento = document.createElement('li');
+        var novaTarefaElemento = document.createElement("li");
 
         // faz o texto aparecer no conteiner
         novaTarefaElemento.textContent = adiciona;
@@ -18,14 +18,15 @@ function adicionarTarefa() {
     
         //botao excluir e concluir
         var btn_excluir =document.createElement("button");
-        btn_excluir.textContent = "excluir";
+        btn_excluir.innerHTML = "❌";
         btn_excluir.onclick=function(){
             excluir(novaTarefaElemento)
         };
         novaTarefaElemento.appendChild(btn_excluir);
 
+       
         var btn_concluir=document.createElement("button");
-        btn_concluir.textContent="concluir";
+        btn_concluir.innerHTML="✔️";
         btn_concluir.onclick=function(){
             concluir(novaTarefaElemento)
         };

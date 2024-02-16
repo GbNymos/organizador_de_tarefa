@@ -1,0 +1,61 @@
+
+*{
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+}
+
+header{
+    background-color: lightblue;
+    width: 100vw;
+    height: 40vh;
+}
+
+div .adicionar{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: aqua;
+}
+
+
+#btn-adiciona{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+button{
+    width: 40px;
+    height: 40px;
+    border-style: none;
+    border-radius: 60%;
+    margin: 10px;
+    background-color:lightcyan;
+}
+.conteiner {
+    
+   
+    margin: auto;
+    width: 400px; 
+    height: 400px; 
+    border-radius: 5%;
+   
+    padding-top: 80px;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+ul{
+    background-color: aqua;
+}
+li{
+    font-size: 1.3em;
+    margin: 20px;
+
+   
+   
+
+}
